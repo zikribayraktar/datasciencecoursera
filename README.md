@@ -64,6 +64,19 @@ $ git commit -m "enter your message here"
 
 $ git push
 
+#### To create a branch:
+
+$ git checkout -b branchname
+
+
+#### To see what branch you are on:
+
+$ git branch
+
+#### To switch back to the master branch:
+
+$ git checkout master
+
 
 
 end-of-file
