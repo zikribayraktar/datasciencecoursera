@@ -9,7 +9,7 @@ datasciencecoursera
 
 $ git configure --global user.name "FirstName LastName"
 
-$ git confiture --glboal user.email <youremail>
+$ git confiture --glboal user.email yourname@email.com
 
 $ git configure --list
 
