@@ -8,8 +8,11 @@ Coursera Data Science Project Repo
 1. To configure your Git:
 
 $ git configure --global user.name "FirstName LastName"
+
 $ git confiture --glboal user.email <youremail>
+
 $ git configure --list
+
 $ git --help
 
 
