@@ -23,14 +23,14 @@ $ cd ~/testrepo/
 
 $ git init
 
-$ git remote add origin https://github.com/<yourusername>/testrepo.git
+$ git remote add origin https://github.com/yourusername/testrepo.git
 
 
 3. To CLONE a repo from online repo:
 
 $ cd ~/testrepo2/
 
-$ git clone https://github.com/<username>/<reponame.git>
+$ git clone https://github.com/username/reponame.git
 
 Above line will clone the 'reponame.git' from the <username> into your
 current folder on your local computer.
@@ -60,7 +60,7 @@ $ git add -A
 $ git commit -m "enter your message here"
 
 
-6. To update your remote GitHub repo:
+### To update your remote GitHub repo:
 
 $ git push
 
