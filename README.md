@@ -60,7 +60,7 @@ $ git add -A
 $ git commit -m "enter your message here"
 
 
-### To update your remote GitHub repo:
+#### To update your remote GitHub repo:
 
 $ git push
 
