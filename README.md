@@ -17,18 +17,19 @@ $ git --help
 
 
 2. Assuming that you have already created the GitHUB repo online, here is how
-to initialize an empty repo to that online repo.  
-
-Lets call your sample repo 'testrepo'.
+to initialize an empty repo to that online repo.  Lets call your sample repo 'testrepo'.
 
 $ cd ~/testrepo/
+
 $ git init
+
 $ git remote add origin https://github.com/<yourusername>/testrepo.git
 
 
 3. To CLONE a repo from online repo:
 
 $ cd ~/testrepo2/
+
 $ git clone https://github.com/<username>/<reponame.git>
 
 Above line will clone the 'reponame.git' from the <username> into your
@@ -41,12 +42,15 @@ To add NEW files to your local Git index, you need to change directory into the
 repo you want to work, and to add all files to the repo, do this:
 
 to add NEW files to the index:
+
 $ git add .
 
 to update:
+
 $ git add -u
 
 to do both add NEW files and update:
+
 $ git add -A
 
 
