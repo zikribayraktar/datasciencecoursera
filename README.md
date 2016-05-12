@@ -7,17 +7,17 @@ datasciencecoursera
 
 #### To configure your local Git:
 
-$ git configure --global user.name "FirstName LastName"
+$ git config --global user.name "FirstName LastName"
 
-$ git confiture --glboal user.email yourname@email.com
+$ git config --global user.email yourname@email.com
 
-$ git configure --list
+$ git config --list
 
 $ git --help
 
 
 #### Assuming that you have already created the GitHUB repo online, here is how
-to initialize an empty repo to that online repo.  Lets call your sample repo 'testrepo'.
+#### to initialize an empty repo to that online repo.  Lets call your sample repo 'testrepo'.
 
 $ cd ~/testrepo/
 
@@ -41,15 +41,15 @@ current folder on your local computer.
 To add NEW files to your local Git index, you need to change directory into the
 repo you want to work, and to add all files to the repo, do this:
 
-to add NEW files to the index:
+## to add NEW files to the index:
 
 $ git add .
 
-to update:
+## to update:
 
 $ git add -u
 
-to do both add NEW files and update:
+## to do both add NEW files and update:
 
 $ git add -A
 
